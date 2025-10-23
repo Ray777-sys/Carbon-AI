@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carbon AI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Global Styles */
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #f0f4f8;
+      color: #333;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #0b74de, #00c6ff);
+      color: white;
+      padding: 100px 20px 60px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin: 0 0 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto 40px;
+    }
+
+    .download-btn {
+      display: inline-block;
+      padding: 15px 35px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #0b74de;
+      background-color: #fff;
+      border-radius: 12px;
+      transition: all 0.3s ease;
+    }
+
+    .download-btn:hover {
+      background-color: #e6f0ff;
+      transform: translateY(-3px);
+    }
+
+    /* Features Section */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .feature-card {
+      background: white;
+      border-radius: 15px;
+      padding: 30px 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+    }
+
+    .feature-card h3 {
+      margin: 15px 0;
+      font-size: 1.3rem;
+      color: #0b74de;
+    }
+
+    .feature-card p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0b74de;
+      color: white;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Carbon AI</h1>
+    <p>Your personal AI assistant for answering questions, performing calculations, opening websites, and more. Download Carbon for Windows and experience it locally!</p>
+    <a class="download-btn" href="https://github.com/Ray777-sys/Carbon-AI/releases/download/v1.2/carbon.exe" download>
+      ⬇️ Download Carbon
+    </a>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="feature-card">
+      <h3>Open Websites</h3>
+      <p>Quickly open popular websites like YouTube, Google, GitHub, and more with simple commands.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Search Anything</h3>
+      <p>Search Google instantly from Carbon without leaving the app — fast and convenient.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Math & Calculations</h3>
+      <p>Perform calculations, solve expressions, and even compute factorials directly with Carbon.</p>
+    </div>
+    <div class="feature-card">
+      <h3>System Commands</h3>
+      <p>Restart, shut down, or open new tabs directly from Carbon using simple commands.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>© 2025 Carbon AI. Hosted on GitHub Pages.</footer>
+
+</body>
+</html>
